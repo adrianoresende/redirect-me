@@ -1,8 +1,8 @@
-# URL Redirector
+# Redirect Me – Redirect your focus, not your time.
 
 ![Redirect Me Icon](images/icon128.png)
 
-## Redirect Me – Redirect your focus, not your time.
+![Screenshot of Redirect Me extension popup](images/screenshot.png)
 
 You know when someone sends you a post, you want to take a quick look… and suddenly you're scrolling for 30 minutes? Been there.
 
