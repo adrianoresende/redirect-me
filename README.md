@@ -2,7 +2,7 @@
 
 ![Redirect Me Icon](images/icon128.png)
 
-![Screenshot of Redirect Me extension popup](images/screenshot.png)
+![Screenshot of Redirect Me extension popup](screenshot.png)
 
 You know when someone sends you a post, you want to take a quick look… and suddenly you're scrolling for 30 minutes? Been there.
 
