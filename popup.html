@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Redirector</title>
+    <link rel="stylesheet" href="src/tailwind.css" />
+  </head>
+  <body class="bg-slate-100 p-4 w-[500px]">
+    <h1 class="text-xl font-bold text-gray-800">Redirect Me</h1>
+
+    <ul
+      id="redirect-list"
+      class="mt-4 bg-white rounded-lg border border-gray-200 divide-y divide-gray-100 max-h-60 overflow-y-auto"
+    >
+      <!-- Redirect items will be injected here by popup.js -->
+    </ul>
+
+    <form id="add-redirect-form" class="mt-6 pt-4 border-t border-gray-200">
+      <h2 class="text-lg font-bold text-gray-800 pb-2">Add new redirect</h2>
+      <div class="space-y-2">
+        <input
+          type="url"
+          id="from-url"
+          placeholder="From URL (e.g., https://twitter.com)"
+          required
+          class="w-full p-3 bg-white border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none placeholder-gray-400"
+        />
+        <input
+          type="url"
+          id="to-url"
+          placeholder="To URL (e.g., https://x.com)"
+          required
+          class="w-full p-3 bg-white border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:outline-none placeholder-gray-400"
+        />
+        <button
+          type="submit"
+          class="w-full cursor-pointer text-base py-3 px-4 bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          Add Redirect
+        </button>
+      </div>
+    </form>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
